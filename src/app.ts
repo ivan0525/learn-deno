@@ -1,5 +1,5 @@
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
-import { getDogs } from './DogController.ts'
+import { getDogs } from './controller/DogController.ts'
 const env = Deno.env.toObject();
 const PORT = env.PORT || 4000;
 const HOST = env.HOST || "127.0.0.1";
